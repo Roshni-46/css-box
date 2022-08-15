@@ -1,0 +1,301 @@
+a{
+    text-decoration: none;
+}
+.box1{
+    background-color: aqua;
+    width: 300px;
+    text-align: center;
+    padding: 20px 15px;
+    color: white;
+    background: #f953c6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 50px;
+display: inline-block;
+margin: 50px;
+}
+.box1 p{
+font-size: 15px;
+line-height: 22.5px;
+}
+.box1 a{
+    padding: 15px 10px;
+    color: purple;
+    background-color: aliceblue;
+    display: inline-block;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.box1 a:hover{
+  background-color: aqua;
+  color: #b91d73;
+}
+.box1 h1{
+    background-color: white;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    color: #b91d73;
+    line-height: 50px;
+}
+.box2{
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: rgb(0,0,0,.302);
+   background-blend-mode: multiply;
+}
+.box2 h1{
+    color:green;
+}
+.box2 a{
+    color: green;
+    transition: 0.3s;
+}
+.box2 a:hover{
+    background-color: rgb(90, 163, 212);
+}
+.box3{
+    background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.box3 h1{
+    color: rgb(59, 5, 5);
+}
+.box3 a{
+    color: rgb(59, 5, 5);
+    transition: 0.3s;
+}
+.box3 a:hover{
+    background-color: rgb(24, 23, 19);
+}
+
+/*2nd line box*/
+.border{
+    background-color: white;
+    width: 300px;
+    margin: 50px;
+    border:1px  white;
+    text-align: center;
+    border: 0.5px solid gray;
+    display: inline-block;
+}
+.border h2{
+    background-color: #EB5757;
+    width: 300px;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+}
+.border h3{
+color: darkgray;
+background-color: gray;
+color: white;
+height: 50px;
+line-height: 50px;
+margin: 0;
+}
+.border p{
+    color:gray;
+    margin: 0;
+    border-bottom: 0.5px solid gray;
+}
+.border a{
+    background-color: #EB5757;
+    width: 290px;
+    display: inline-block;
+    color: white;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.border a:hover{
+    color:gray ;
+    background-color: black;
+}
+
+.border2 h2{
+  background-color: rgb(207, 207, 3);
+}
+.border2 a{
+    background-color: rgb(207, 207, 3);
+    transition: 0.3s;
+}
+.border2 a:hover{
+    background-color: rgb(116, 109, 103);
+    color: #000000;
+}
+.border3 h2{
+    background-color: rgb(6, 65, 42);
+  }
+  .border3 a{
+      background-color:  rgb(6, 65, 42);
+      transition: 0.3s;
+  }
+  .border3 a:hover{
+      background-color: rgb(116, 109, 103);
+      color: #000000;
+  }
+  /*3rd line start*/
+  .row{
+    margin:50px;
+    width: 300px;
+    background-image: url(../images/index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+  }
+  .row h1{
+    text-align: center;
+    background-color: rgb(0,0,0,.302);
+    display: inline-block;
+    color: black;
+    transition: 0.3s;
+    
+  }
+.row h1:hover{
+    background-color: #155799;
+    padding: 5px;
+    color: white;
+    
+}
+.row2{
+  background-image: url(../images/images.jpg);  
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: azure;
+}
+.row2 p{
+  
+   text-align: justify; 
+}
+    .row2 a{
+        background-color: white;
+        padding: 15px;
+        color:purple;
+        border-radius: 25px;
+        transition: 0.3s;
+        display: inline-block;
+    }
+    .row2 a:hover{
+        color:white;
+        background-color: purple;
+    }
+    .row3{
+        margin:50px;
+        width: 300px;
+        background-image: url(../images/jGlzr.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 20px;
+        display: inline-block;
+      }
+      .row3 h1{
+        text-align: center;
+        background-color: rgb(0,0,0,.302);
+       display: inline-block;
+        color: black;
+        transition: 0.3s;  
+      }
+    .row3 h1:hover{
+        background-color: #719915;
+        padding: 5px;
+            color: white;}
+     /*4 line card design here*/
+     .four{
+        width: 350px;
+        background-color: #f5f5f5;
+        outline: 1px solid #f5f5f5;
+        display: inline-block;
+        margin: 20px;
+        padding: 20px 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     .four h2{
+        color: #212529;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+     }
+     .four p{
+        color: #212529;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: justify;
+     }
+     .four a{
+      
+        padding: 15px;
+        background-color:  #49596d;
+        padding-left: 15px;
+        color: white;
+        font-weight: 700;
+        padding-right: 80px;
+        border-radius: 0 30px 30px 0;
+        text-align: center;
+        display: inline-block;
+    }
+    .four a:hover{
+        color:white;
+        background-color: red;
+    }
+    .four1{
+        background-color: #f953c6;
+        border-radius: 20px;
+       
+    }
+    .four1 p{
+        color: aliceblue;
+        text-align: justify;
+    }
+    .four1 h2{
+        color: aliceblue;
+    }
+    .four1 a:hover{
+        color:white;
+        background-color:black;
+    }
+    
+    .four2{
+        background-color: coral;
+        border-radius: 3px 50px 50px 3px;
+    }
+    .four2 a:hover{
+        color:coral;
+        background-color:white;
+    }
+    /*5th line card design here*/
+    .five{
+        width: 250px;
+        outline: 1px solid darkgrey;
+        display: inline-block;
+        margin: 25px;
+        text-align: center;
+        padding: 10px;
+        font-family:Arial, Helvetica, sans-serifs;
+    }
+    .five p{
+        color: gray;
+    }
+    .five h3{
+        color:rgb(4, 28, 39);
+    }
+    .five2{
+        border: dotted grey;
+    }
+    .five3{
+        border-radius: 50%;
+        height: 250px;
+        border: 1px solid black;
+    }
+    .five4{
+        border-radius: 20px;
+    }
